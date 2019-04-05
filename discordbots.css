@@ -1,0 +1,422 @@
+p {
+  color: white;
+}
+
+#bot-details-page .bot-img {
+  margin: 0 auto;
+  -webkit-animation: fade-in 0.6s ease;
+          animation: fade-in 0.6s ease;
+}
+
+.bot-btnss {
+  position: relative;
+  left: -6px;
+}
+
+.bot-img img {
+  border-radius: 50%;
+  -webkit-box-shadow: 0 1px 2px black;
+          box-shadow: 0 1px 2px black;
+  -webkit-animation: df-logo-rotate 5s ease;
+          animation: df-logo-rotate 5s ease;
+  -webkit-transition: -webkit-filter 0.6s ease;
+  transition: -webkit-filter 0.6s ease;
+  transition: filter 0.6s ease;
+  transition: filter 0.6s ease, -webkit-filter 0.6s ease;
+  -webkit-box-shadow: 0 16px 42px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 16px 42px rgba(0, 0, 0, 0.2);
+}
+
+.bot-img img:hover {
+  -webkit-filter: hue-rotate(-40deg);
+          filter: hue-rotate(-40deg);
+}
+
+#bot-details-page {
+  background-image: url(https://daily-fire.com/static/bg-gradient.png);
+  background-position: top right;
+  background-size: cover;
+  padding-top: 80px;
+}
+
+
+#bot-details-page #details .container {
+  border-top: 0;
+}
+
+.columns .bot-img {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  overflow: initial;
+}
+
+#bot-details-page #details {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+#bot-details-page .bot-name {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 48px;
+  -webkit-animation: fade-in 0.8s ease;
+          animation: fade-in 0.8s ease;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+#bot-details-page .bot-description {
+  font-family: "Rubik";
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  line-height: 1.4em;
+  -webkit-animation: fade-in 0.8s ease;
+          animation: fade-in 0.8s ease;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+#libclick {
+  -webkit-animation: fade-in 0.8s ease;
+          animation: fade-in 0.8s ease;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.titleandvote {
+  text-align: left;
+  -webkit-animation: fade-in 0.8s ease;
+          animation: fade-in 0.8s ease;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.left-container {
+  -webkit-animation: fade-in 0.8s ease;
+          animation: fade-in 0.8s ease;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+  padding-left: 20px;
+}
+
+#tags {
+  -webkit-animation: fade-in 0.8s ease;
+          animation: fade-in 0.8s ease;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.bot-tags-title {
+  -webkit-animation: fade-in 0.8s ease;
+          animation: fade-in 0.8s ease;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+#createdby {
+  -webkit-animation: fade-in 0.8s ease;
+          animation: fade-in 0.8s ease;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.longdescription .content {
+  background: rgba(17, 17, 17, 0.88);
+  color: white;
+  background-image: url(https://daily-fire.com/static/bg-gradient.png);
+  background-position: top right;
+  background-size: cover;
+  font-family: "Rubik";
+  -webkit-box-shadow: 0px 20px 125px -25px rgba(0,0,0,.5), 0px 20px 75px -37.5px rgba(0,0,0,.6);
+          box-shadow: 0px 20px 125px -25px rgba(0,0,0,.5), 0px 20px 75px -37.5px rgba(0,0,0,.6);
+  padding: 40px;
+}
+
+.longdescription {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  padding: 0;
+}
+
+.longdescription .content {
+  background: rgba(17, 17, 17, 0.88);
+  color: white;
+  background-image: url(https://daily-fire.com/static/bg-stage-gradient.png);
+  background-position: top right;
+  background-size: cover;
+  font-family: "Rubik";
+  -webkit-box-shadow: 0px 20px 125px -25px rgba(0,0,0,.5), 0px 20px 75px -37.5px rgba(0,0,0,.6);
+          box-shadow: 0px 20px 125px -25px rgba(0,0,0,.5), 0px 20px 75px -37.5px rgba(0,0,0,.6);
+  padding: 30px 60px 60px;
+  -webkit-animation: df-fade-up-in 0.4s ease-in;
+          animation: df-fade-up-in 0.4s ease-in;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.content p:not(:last-child) {
+  max-width: 555px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5em;
+  opacity: 0.8;
+}
+
+.content strong {
+  font-weight: 700;
+  color: white;
+}
+
+.owners {
+  color: rgba(255,255,255, 0.8);
+  text-align: right;
+  text-transform: lowercase;
+  font-family: "Rubik";
+}
+
+#createdby {
+  font-weight: 400;
+}
+
+#createdby b {
+  height: initial;
+  padding: 3px 0;
+  padding-right: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#createdby img {
+  margin: -6px 0;
+  position: relative;
+  top: 4px;
+  width: 42px;
+}
+
+#createdby span {
+  position: relative;
+  top: -5px;
+}
+
+.owners a {
+  color: #dedede;
+}
+
+.botpagebutton {
+  color: white;
+  background: transparent;
+}
+
+.bot-tags-title {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: bold;
+}
+
+code {
+  background-color: transparent;
+}
+
+#menu {
+  background: rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4);
+          box-shadow: 0 1px 2px rgba(0,0,0,.4);
+}
+
+p.df__hero-link-wrapper {
+  opacity: 0;
+  max-width: initial;
+}
+
+a.df__hero-link {
+  color: white;
+}
+
+.btn-orange {
+  background: #da0229;
+}
+
+.approvalSection {
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.atag {
+  background: #3C3B3B;
+  color: white;
+}
+
+.atag:hover {
+  background: #D40024;
+}
+
+.atag:hover::after {
+  border-left: 10px solid #D40024;
+}
+
+.atag:hover::before {
+  background-color: #ffffff;
+}
+
+.atag::after {
+  border-left: 10px solid #3C3B3B;
+}
+
+.botpagebutton:hover {
+  background-color:  #D40024;
+}
+
+.atag::before {
+  background-color: #9a9a9a;
+}
+
+@-webkit-keyframes df-fade-up-in {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes df-fade-up-in {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes df-logo-rotate {
+  0% {
+    -webkit-filter: hue-rotate(-30deg);
+            filter: hue-rotate(-30deg)
+  }
+
+  30% {
+    -webkit-filter: hue-rotate(-50deg);
+            filter: hue-rotate(-50deg)
+  }
+
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg)
+  }
+}
+
+@keyframes df-logo-rotate {
+  0% {
+    -webkit-filter: hue-rotate(-30deg);
+            filter: hue-rotate(-30deg)
+  }
+
+  30% {
+    -webkit-filter: hue-rotate(-50deg);
+            filter: hue-rotate(-50deg)
+  }
+
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg)
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .column.is-3-desktop {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .titleandvote {
+    text-align: center;
+  }
+
+  #bot-details-page #bot-stats {
+    border-top: none;
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .longdescription {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .longdescription .content {
+    padding: 20px 40px 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .longdescription {
+    padding-top: 0;
+  }
+
+  .longdescription .content {
+    padding: 15px 0px 40px;
+    background: transparent !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+}
