@@ -21,16 +21,20 @@ p {
           animation: df-logo-rotate 5s ease;
   -webkit-box-shadow: 0 16px 42px rgba(0, 0, 0, 0.2);
           box-shadow: 0 16px 42px rgba(0, 0, 0, 0.2);
-  animation: filter-img 32s infinite;
+  animation: filter-img 64s infinite;
 }
 
 @keyframes filter-img {
-  from {
+  0% {
     filter: hue-rotate(0deg);
   }
 
-  to {
-    filter: hue-rotate(360deg);
+  50% {
+    filter: hue-rotate(-180deg);
+  }
+
+  100% {
+    filter: hue-rotate(0deg);
   }
 }
 
